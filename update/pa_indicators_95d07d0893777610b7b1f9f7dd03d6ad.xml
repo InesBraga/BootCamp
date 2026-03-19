@@ -7,15 +7,17 @@
         <calendar_freq/>
         <collect_breakdown_matrix>false</collect_breakdown_matrix>
         <collect_records>true</collect_records>
-        <conditions/>
+        <conditions table="x_58872_needit_needit">u_when_needed&lt;javascript:gs.beginningOfThisWeek()^EQ<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.beginningOfThisWeek()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
         <contributor/>
-        <cube display_value="NeedIt.ThisMonth">4937a9bf9327f210b7b1f9f7dd03d600</cube>
+        <cube display_value="NeedIt.ActiveWeekly">7aa769ff9327f210b7b1f9f7dd03d68b</cube>
         <data_source/>
         <default_aggregate/>
         <default_chart_type>line</default_chart_type>
-        <description>NeedIt: NeedIt requests due monthly measured as a count (#). It is the sum of the indicator source: NeedIt.ThisMonth.</description>
+        <description>Ver semanas</description>
         <direction>1</direction>
-        <display>true</display>
+        <display>false</display>
         <excluded_statistics/>
         <field/>
         <forecast_base_periods>2</forecast_base_periods>
@@ -30,7 +32,7 @@
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
         <formula_allow_null>false</formula_allow_null>
-        <frequency>40</frequency>
+        <frequency>20</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
         <key>false</key>
@@ -40,18 +42,18 @@
         <managed_breakdown/>
         <managed_element/>
         <managing_indicator/>
-        <name>NeedIt: Due Monthly</name>
+        <name>NeedIt: Active Weekly</name>
         <order/>
         <override_periods>false</override_periods>
         <precision>0</precision>
-        <related_breakdowns>2</related_breakdowns>
-        <related_jobs>4</related_jobs>
+        <related_breakdowns>1</related_breakdowns>
+        <related_jobs>1</related_jobs>
         <render_continuous_lines>false</render_continuous_lines>
         <role_override>false</role_override>
-        <roles>admin,pa_admin,pa_power_user,pa_viewer</roles>
+        <roles/>
         <score_periods>-1</score_periods>
         <scores_format>kMGTPE</scores_format>
-        <scores_modified_at>2026-03-19 08:00:04</scores_modified_at>
+        <scores_modified_at>2026-03-19 08:00:06</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
@@ -60,24 +62,24 @@
         <sql_statement/>
         <sys_class_name>pa_indicators</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-17 15:54:49</sys_created_on>
+        <sys_created_on>2026-03-18 11:15:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d838e9339367f210b7b1f9f7dd03d66a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>NeedIt: Due Monthly</sys_name>
+        <sys_id>95d07d0893777610b7b1f9f7dd03d6ad</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt: Active Weekly</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>pa_indicators_d838e9339367f210b7b1f9f7dd03d66a</sys_update_name>
+        <sys_update_name>pa_indicators_95d07d0893777610b7b1f9f7dd03d6ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-18 11:48:27</sys_updated_on>
+        <sys_updated_on>2026-03-18 11:58:20</sys_updated_on>
         <type>1</type>
         <unit/>
-        <users>6816f79cc0a8016401c5a33be04be441</users>
-        <value_when_nil>0</value_when_nil>
+        <users/>
+        <value_when_nil/>
         <visible_to>2</visible_to>
     </pa_indicators>
-    <sys_translated_text action="delete_multiple" query="documentkey=d838e9339367f210b7b1f9f7dd03d66a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=95d07d0893777610b7b1f9f7dd03d6ad"/>
 </record_update>
